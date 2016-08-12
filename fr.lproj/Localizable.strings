@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  iMovieDB
+
+  Created by DEGUINE Benoît on 06/04/2016.
+  Copyright (c) 2016 DEGUINE Benoît. All rights reserved.
+*/
+
+"my_movies" = "Mes films";
+"search_movie" = "Rechercher un film";
+"add_new_movie_title" = "Ajouter un film";
+"add_new_movie" = "Voulez-vous ajouter %@ à votre bibliothéque ?";
+"yes" = "Oui";
+"no" = "Non";
+
+"infos_movie" = "Informations à propos du film";
+"resume_movie" = "Synopsis du film";
+"date_seen" = "Quand avez-vous vu ce film ?";
+"title" = "Titre";
+"release_date" = "Date de sortie";
+"yesterday" = "Hier";
+"today" = "Aujourd'hui";
+"release_date" = "Date de sortie";
+
+"remove_movie" = "Supprimer";
+"remove_movie_title" = "Voulez-vous supprimer %@ de votre bibliothèque ?";

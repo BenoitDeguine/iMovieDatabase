@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1430B9071CE50D16002530FD /* AddMovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430B9061CE50D16002530FD /* AddMovieTableViewController.m */; };
+		834066201CBE46A20045044D /* MyMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8340661F1CBE46A20045044D /* MyMovieTableViewCell.m */; };
+		834066261CBE73B70045044D /* showMovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834066251CBE73B70045044D /* showMovieTableViewController.m */; };
+		839027631CB5010A0054CA74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 839027621CB5010A0054CA74 /* main.m */; };
+		839027661CB5010A0054CA74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 839027651CB5010A0054CA74 /* AppDelegate.m */; };
+		8390276F1CB5010A0054CA74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8390276D1CB5010A0054CA74 /* Main.storyboard */; };
+		839027711CB5010A0054CA74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839027701CB5010A0054CA74 /* Images.xcassets */; };
+		839027741CB5010A0054CA74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839027721CB5010A0054CA74 /* LaunchScreen.xib */; };
+		839027801CB5010A0054CA74 /* iMovieDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390277F1CB5010A0054CA74 /* iMovieDBTests.m */; };
+		8390278B1CB502B00054CA74 /* MyMoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390278A1CB502B00054CA74 /* MyMoviesTableViewController.m */; };
+		8390278F1CB5045E0054CA74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 839027911CB5045E0054CA74 /* Localizable.strings */; };
+		839027951CB508CF0054CA74 /* SearchMovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839027941CB508CF0054CA74 /* SearchMovieTableViewController.m */; };
+		839027981CB50B0C0054CA74 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 839027971CB50B0C0054CA74 /* APIManager.m */; };
+		8390279C1CB50BB90054CA74 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390279B1CB50BB90054CA74 /* Movie.m */; };
+		839027A01CB5345C0054CA74 /* SearchMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8390279F1CB5345C0054CA74 /* SearchMovieTableViewCell.m */; };
+		839027A31CB53AF30054CA74 /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 839027A21CB53AF30054CA74 /* ImageManager.m */; };
+		839027A81CB54F0A0054CA74 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 839027A71CB54F0A0054CA74 /* DataManager.m */; };
+		A701CAE71B2F7370264C415D /* libPods-iMovieDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57401D9832BF9DC655D7C0BA /* libPods-iMovieDB.a */; };
+		C0673A5D34F1B42144948682 /* libPods-iMovieDBTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C16ACE62CED8E43964FE4E0A /* libPods-iMovieDBTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8390277A1CB5010A0054CA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839027551CB5010A0054CA74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8390275C1CB5010A0054CA74;
+			remoteInfo = iMovieDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0984CA33AF3704619C279452 /* Pods-iMovieDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMovieDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMovieDBTests/Pods-iMovieDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1430B9051CE50D16002530FD /* AddMovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMovieTableViewController.h; sourceTree = "<group>"; };
+		1430B9061CE50D16002530FD /* AddMovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMovieTableViewController.m; sourceTree = "<group>"; };
+		2A94F888CEF655C315959603 /* Pods-iMovieDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMovieDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMovieDBTests/Pods-iMovieDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		52876844C2B132A74C571153 /* Pods-iMovieDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMovieDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMovieDB/Pods-iMovieDB.debug.xcconfig"; sourceTree = "<group>"; };
+		57401D9832BF9DC655D7C0BA /* libPods-iMovieDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iMovieDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8340661E1CBE46A20045044D /* MyMovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMovieTableViewCell.h; sourceTree = "<group>"; };
+		8340661F1CBE46A20045044D /* MyMovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMovieTableViewCell.m; sourceTree = "<group>"; };
+		834066241CBE73B70045044D /* showMovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showMovieTableViewController.h; sourceTree = "<group>"; };
+		834066251CBE73B70045044D /* showMovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showMovieTableViewController.m; sourceTree = "<group>"; };
+		8390275D1CB5010A0054CA74 /* iMovieDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMovieDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839027611CB5010A0054CA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839027621CB5010A0054CA74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		839027641CB5010A0054CA74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		839027651CB5010A0054CA74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8390276E1CB5010A0054CA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839027701CB5010A0054CA74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		839027731CB5010A0054CA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		839027791CB5010A0054CA74 /* iMovieDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMovieDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8390277E1CB5010A0054CA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8390277F1CB5010A0054CA74 /* iMovieDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMovieDBTests.m; sourceTree = "<group>"; };
+		839027891CB502B00054CA74 /* MyMoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMoviesTableViewController.h; path = "View Controllers/MyMoviesTableViewController.h"; sourceTree = "<group>"; };
+		8390278A1CB502B00054CA74 /* MyMoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyMoviesTableViewController.m; path = "View Controllers/MyMoviesTableViewController.m"; sourceTree = "<group>"; };
+		839027901CB5045E0054CA74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		839027921CB5046E0054CA74 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		839027931CB508CF0054CA74 /* SearchMovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMovieTableViewController.h; sourceTree = "<group>"; };
+		839027941CB508CF0054CA74 /* SearchMovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMovieTableViewController.m; sourceTree = "<group>"; };
+		839027961CB50B0C0054CA74 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		839027971CB50B0C0054CA74 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		8390279A1CB50BB90054CA74 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		8390279B1CB50BB90054CA74 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		8390279E1CB5345C0054CA74 /* SearchMovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMovieTableViewCell.h; sourceTree = "<group>"; };
+		8390279F1CB5345C0054CA74 /* SearchMovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMovieTableViewCell.m; sourceTree = "<group>"; };
+		839027A11CB53AF30054CA74 /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		839027A21CB53AF30054CA74 /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		839027A41CB53B240054CA74 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		839027A51CB53B410054CA74 /* DataTransfer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTransfer.pch; sourceTree = "<group>"; };
+		839027A61CB54F0A0054CA74 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		839027A71CB54F0A0054CA74 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		9E1D1B6C72644C2941FD3818 /* Pods-iMovieDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMovieDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMovieDB/Pods-iMovieDB.release.xcconfig"; sourceTree = "<group>"; };
+		C16ACE62CED8E43964FE4E0A /* libPods-iMovieDBTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iMovieDBTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8390275A1CB5010A0054CA74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A701CAE71B2F7370264C415D /* libPods-iMovieDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839027761CB5010A0054CA74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0673A5D34F1B42144948682 /* libPods-iMovieDBTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1430B9081CE50FFA002530FD /* MyMovie */ = {
+			isa = PBXGroup;
+			children = (
+				839027891CB502B00054CA74 /* MyMoviesTableViewController.h */,
+				8390278A1CB502B00054CA74 /* MyMoviesTableViewController.m */,
+				834066241CBE73B70045044D /* showMovieTableViewController.h */,
+				834066251CBE73B70045044D /* showMovieTableViewController.m */,
+			);
+			name = MyMovie;
+			sourceTree = "<group>";
+		};
+		1430B9091CE51001002530FD /* Search & Add */ = {
+			isa = PBXGroup;
+			children = (
+				839027931CB508CF0054CA74 /* SearchMovieTableViewController.h */,
+				839027941CB508CF0054CA74 /* SearchMovieTableViewController.m */,
+				1430B9051CE50D16002530FD /* AddMovieTableViewController.h */,
+				1430B9061CE50D16002530FD /* AddMovieTableViewController.m */,
+			);
+			name = "Search & Add";
+			sourceTree = "<group>";
+		};
+		272C2DE04D2675381B902B07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52876844C2B132A74C571153 /* Pods-iMovieDB.debug.xcconfig */,
+				9E1D1B6C72644C2941FD3818 /* Pods-iMovieDB.release.xcconfig */,
+				0984CA33AF3704619C279452 /* Pods-iMovieDBTests.debug.xcconfig */,
+				2A94F888CEF655C315959603 /* Pods-iMovieDBTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		839027541CB5010A0054CA74 = {
+			isa = PBXGroup;
+			children = (
+				839027911CB5045E0054CA74 /* Localizable.strings */,
+				839027A41CB53B240054CA74 /* Constant.h */,
+				839027A51CB53B410054CA74 /* DataTransfer.pch */,
+				8390275F1CB5010A0054CA74 /* iMovieDB */,
+				8390277C1CB5010A0054CA74 /* iMovieDBTests */,
+				8390275E1CB5010A0054CA74 /* Products */,
+				272C2DE04D2675381B902B07 /* Pods */,
+				CA49C3203BF0CB6EADBCE46A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8390275E1CB5010A0054CA74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8390275D1CB5010A0054CA74 /* iMovieDB.app */,
+				839027791CB5010A0054CA74 /* iMovieDBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8390275F1CB5010A0054CA74 /* iMovieDB */ = {
+			isa = PBXGroup;
+			children = (
+				839027991CB50B150054CA74 /* APIManager */,
+				8390278C1CB502B40054CA74 /* View Controllers */,
+				839027641CB5010A0054CA74 /* AppDelegate.h */,
+				839027651CB5010A0054CA74 /* AppDelegate.m */,
+				8390276D1CB5010A0054CA74 /* Main.storyboard */,
+				839027701CB5010A0054CA74 /* Images.xcassets */,
+				839027721CB5010A0054CA74 /* LaunchScreen.xib */,
+				839027601CB5010A0054CA74 /* Supporting Files */,
+			);
+			path = iMovieDB;
+			sourceTree = "<group>";
+		};
+		839027601CB5010A0054CA74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				839027611CB5010A0054CA74 /* Info.plist */,
+				839027621CB5010A0054CA74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8390277C1CB5010A0054CA74 /* iMovieDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				8390277F1CB5010A0054CA74 /* iMovieDBTests.m */,
+				8390277D1CB5010A0054CA74 /* Supporting Files */,
+			);
+			path = iMovieDBTests;
+			sourceTree = "<group>";
+		};
+		8390277D1CB5010A0054CA74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8390277E1CB5010A0054CA74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8390278C1CB502B40054CA74 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8390279D1CB534440054CA74 /* CustomCell */,
+				1430B9081CE50FFA002530FD /* MyMovie */,
+				1430B9091CE51001002530FD /* Search & Add */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		839027991CB50B150054CA74 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				839027961CB50B0C0054CA74 /* APIManager.h */,
+				839027971CB50B0C0054CA74 /* APIManager.m */,
+				8390279A1CB50BB90054CA74 /* Movie.h */,
+				8390279B1CB50BB90054CA74 /* Movie.m */,
+				839027A11CB53AF30054CA74 /* ImageManager.h */,
+				839027A21CB53AF30054CA74 /* ImageManager.m */,
+				839027A61CB54F0A0054CA74 /* DataManager.h */,
+				839027A71CB54F0A0054CA74 /* DataManager.m */,
+			);
+			name = APIManager;
+			sourceTree = "<group>";
+		};
+		8390279D1CB534440054CA74 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				8390279E1CB5345C0054CA74 /* SearchMovieTableViewCell.h */,
+				8390279F1CB5345C0054CA74 /* SearchMovieTableViewCell.m */,
+				8340661E1CBE46A20045044D /* MyMovieTableViewCell.h */,
+				8340661F1CBE46A20045044D /* MyMovieTableViewCell.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		CA49C3203BF0CB6EADBCE46A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57401D9832BF9DC655D7C0BA /* libPods-iMovieDB.a */,
+				C16ACE62CED8E43964FE4E0A /* libPods-iMovieDBTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8390275C1CB5010A0054CA74 /* iMovieDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839027831CB5010A0054CA74 /* Build configuration list for PBXNativeTarget "iMovieDB" */;
+			buildPhases = (
+				5B03337B8F92453761821CA0 /* 📦 Check Pods Manifest.lock */,
+				839027591CB5010A0054CA74 /* Sources */,
+				8390275A1CB5010A0054CA74 /* Frameworks */,
+				8390275B1CB5010A0054CA74 /* Resources */,
+				AE2719351E92F509D9C1B5CA /* 📦 Embed Pods Frameworks */,
+				D6F4B2C5FD216CB553842443 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMovieDB;
+			productName = iMovieDB;
+			productReference = 8390275D1CB5010A0054CA74 /* iMovieDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839027781CB5010A0054CA74 /* iMovieDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839027861CB5010A0054CA74 /* Build configuration list for PBXNativeTarget "iMovieDBTests" */;
+			buildPhases = (
+				E47348964A15A4CF76555630 /* 📦 Check Pods Manifest.lock */,
+				839027751CB5010A0054CA74 /* Sources */,
+				839027761CB5010A0054CA74 /* Frameworks */,
+				839027771CB5010A0054CA74 /* Resources */,
+				D466C5FAFA18614EDD5A0BFF /* 📦 Embed Pods Frameworks */,
+				19A0CAB87E6D20CDE13EB82F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8390277B1CB5010A0054CA74 /* PBXTargetDependency */,
+			);
+			name = iMovieDBTests;
+			productName = iMovieDBTests;
+			productReference = 839027791CB5010A0054CA74 /* iMovieDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839027551CB5010A0054CA74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "DEGUINE Benoît";
+				TargetAttributes = {
+					8390275C1CB5010A0054CA74 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = PF2935SUF6;
+					};
+					839027781CB5010A0054CA74 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8390275C1CB5010A0054CA74;
+					};
+				};
+			};
+			buildConfigurationList = 839027581CB5010A0054CA74 /* Build configuration list for PBXProject "iMovieDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 839027541CB5010A0054CA74;
+			productRefGroup = 8390275E1CB5010A0054CA74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8390275C1CB5010A0054CA74 /* iMovieDB */,
+				839027781CB5010A0054CA74 /* iMovieDBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8390275B1CB5010A0054CA74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8390276F1CB5010A0054CA74 /* Main.storyboard in Resources */,
+				8390278F1CB5045E0054CA74 /* Localizable.strings in Resources */,
+				839027741CB5010A0054CA74 /* LaunchScreen.xib in Resources */,
+				839027711CB5010A0054CA74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839027771CB5010A0054CA74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19A0CAB87E6D20CDE13EB82F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMovieDBTests/Pods-iMovieDBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B03337B8F92453761821CA0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2719351E92F509D9C1B5CA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMovieDB/Pods-iMovieDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D466C5FAFA18614EDD5A0BFF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMovieDBTests/Pods-iMovieDBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F4B2C5FD216CB553842443 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMovieDB/Pods-iMovieDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E47348964A15A4CF76555630 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839027591CB5010A0054CA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834066201CBE46A20045044D /* MyMovieTableViewCell.m in Sources */,
+				8390278B1CB502B00054CA74 /* MyMoviesTableViewController.m in Sources */,
+				839027A81CB54F0A0054CA74 /* DataManager.m in Sources */,
+				8390279C1CB50BB90054CA74 /* Movie.m in Sources */,
+				839027A31CB53AF30054CA74 /* ImageManager.m in Sources */,
+				839027981CB50B0C0054CA74 /* APIManager.m in Sources */,
+				839027661CB5010A0054CA74 /* AppDelegate.m in Sources */,
+				839027631CB5010A0054CA74 /* main.m in Sources */,
+				1430B9071CE50D16002530FD /* AddMovieTableViewController.m in Sources */,
+				834066261CBE73B70045044D /* showMovieTableViewController.m in Sources */,
+				839027A01CB5345C0054CA74 /* SearchMovieTableViewCell.m in Sources */,
+				839027951CB508CF0054CA74 /* SearchMovieTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839027751CB5010A0054CA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839027801CB5010A0054CA74 /* iMovieDBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8390277B1CB5010A0054CA74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8390275C1CB5010A0054CA74 /* iMovieDB */;
+			targetProxy = 8390277A1CB5010A0054CA74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8390276D1CB5010A0054CA74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8390276E1CB5010A0054CA74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		839027721CB5010A0054CA74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839027731CB5010A0054CA74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		839027911CB5045E0054CA74 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839027901CB5045E0054CA74 /* en */,
+				839027921CB5046E0054CA74 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839027811CB5010A0054CA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		839027821CB5010A0054CA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839027841CB5010A0054CA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52876844C2B132A74C571153 /* Pods-iMovieDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = DataTransfer.pch;
+				INFOPLIST_FILE = iMovieDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		839027851CB5010A0054CA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1D1B6C72644C2941FD3818 /* Pods-iMovieDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = DataTransfer.pch;
+				INFOPLIST_FILE = iMovieDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		839027871CB5010A0054CA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0984CA33AF3704619C279452 /* Pods-iMovieDBTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iMovieDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMovieDB.app/iMovieDB";
+			};
+			name = Debug;
+		};
+		839027881CB5010A0054CA74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A94F888CEF655C315959603 /* Pods-iMovieDBTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iMovieDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMovieDB.app/iMovieDB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839027581CB5010A0054CA74 /* Build configuration list for PBXProject "iMovieDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839027811CB5010A0054CA74 /* Debug */,
+				839027821CB5010A0054CA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839027831CB5010A0054CA74 /* Build configuration list for PBXNativeTarget "iMovieDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839027841CB5010A0054CA74 /* Debug */,
+				839027851CB5010A0054CA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839027861CB5010A0054CA74 /* Build configuration list for PBXNativeTarget "iMovieDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839027871CB5010A0054CA74 /* Debug */,
+				839027881CB5010A0054CA74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839027551CB5010A0054CA74 /* Project object */;
+}

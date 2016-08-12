@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  iMovieDB
+
+  Created by DEGUINE Benoît on 06/04/2016.
+  Copyright (c) 2016 DEGUINE Benoît. All rights reserved.
+*/
+
+
+"my_movies" = "My Movies";
+"search_movie" = "Search for a movie";
+"add_new_movie_title" = "Add new Movie";
+"add_new_movie" = "Would you like to add %@ to you library ?";
+"yes" = "Yes";
+"no" = "No";
+
+"infos_movie" = "Informations about the movie";
+"resume_movie" = "Resume of the movie";
+"date_seen" = "When have you see this movie ?";
+"title" = "Title";
+"release_date" = "Release date";
+"yesterday" = "Yesterday";
+"today" = "Today";
+"release_date" = "Release Date";
+
+"remove_movie" = "Remove";
+"remove_movie_title" = "Would you like to remove %@ from you library ?";

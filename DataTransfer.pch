@@ -1,0 +1,16 @@
+//
+//  DataTransfer.pch
+//  DataTransfer
+//
+//  Created by DEGUINE Benoît on 09/03/2016.
+//  Copyright (c) 2016 DEGUINE Benoît. All rights reserved.
+//
+
+#ifndef DataTransfer_DataTransfer_pch
+#define DataTransfer_DataTransfer_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constant.h"
+
+#endif
